@@ -23,9 +23,12 @@
 ```bash
 git clone https://github.com/andersonphonom-ui/hashshield.git
 cd hashshield
+
 pip install -r requirements.txt --break-system-packages
-sudo cp main.py identifier.py cracker.py generator.py banner.py /usr/local/bin/
-sudo mv /usr/local/bin/main.py /usr/local/bin/hashshield
+
+sudo cp main.py /usr/local/bin/hashshield
+sudo cp identifier.py cracker.py generator.py hashshield_banner.py /usr/local/bin/
+
 sudo chmod +x /usr/local/bin/hashshield
 ```
 
