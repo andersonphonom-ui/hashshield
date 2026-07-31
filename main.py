@@ -8,7 +8,7 @@ from rich.console import Console
 from rich.table import Table
 from rich import box
 
-from banner import show_banner, VERSION
+from hashshield_banner import show_banner, VERSION
 from identifier import identify, get_strength
 from cracker import wordlist_attack, brute_force_attack
 from generator import generate, supported_types
